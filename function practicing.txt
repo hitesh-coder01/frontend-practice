@@ -1,0 +1,19 @@
+#lower to upper line withour upper()
+#program for reading a line of Text and convert it into Upper Case
+# (don't use upper() )
+#LineConvertToUpperEx1.py
+def convertToUpper(line):# line= PYthon Is AN OOP LanG
+    uc=""
+    for ch in line:
+        if(ord(ch) in range(97,123)):
+            uc=uc+chr(ord(ch)-32)
+        else:
+            uc=uc+ch
+    return uc
+
+#Main Program
+line=input("Enter a Line of Text:")
+uc=convertToUpper(line)
+print("Given Line of Text:",line)
+print("Upper Case=",uc)
+
