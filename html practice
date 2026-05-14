@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <title>Demo web</title>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+    
+    <h1><strong>Hitesh</strong></h1> <p>
+        <u>my name is Hitesh</u>
+    </p>
+
+    <ul>
+        <li>Bahubali</li>
+        <li><span>PK</span></li>
+        <li>three idiots</li>
+    </ul>
+
+    <a href="https://www.google.com" target="_blank">click here</a>
+    <br><br>
+    
+    <img src="https://miro.medium.com/v2/resize:fit:1400/1*uNCVd_VqFOcdxhsL71cT5Q.jpeg" alt="random" height="100" width="150">
+
+    <div>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr> <th>Skill</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Python</td>
+                    <td>Learning</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Practicing</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <hr> <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="enter user name"><br><br>
+
+        <label for="pswdinput">Password:</label>
+        <input type="password" id="pswdinput" placeholder="enter password"><br><br>
+
+        <label>Gender:</label> 
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <label for="city">Select City:</label>
+        <select id="city">
+            <option value="hyd">Hyderabad</option>
+            <option value="chennai">Chennai</option>
+            <option value="noida">Noida</option>
+            <option value="bengluru">Bengaluru</option>
+        </select>
+          <input type="checkbox" id="chkbx" name="skill"><label>python</label></br>
+    
+<label name="dob">dob:</label></label><input type="date" name="dob">
+<input type="checkbox" id="chkbx" name="skill"><label>python</label>
+<fieldset>helo<legend>hi</legend></fieldset>
+<textarea rows="4" cols="30"></textarea>
+        <br><br>
+        
+        <input type="submit" value="Submit kare">
+    </form>
+  
+</body
+</html>
